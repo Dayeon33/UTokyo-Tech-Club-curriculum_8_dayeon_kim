@@ -1,0 +1,1 @@
+./semester | grep 'last-modified' | awk -F': ' '{print $2}' > ~/os10.txt
